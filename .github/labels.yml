@@ -119,3 +119,41 @@
 - name: breaking-change
   color: d73a4a
   description: May require user action or cause disruption
+
+# App Labels
+- name: "app: YoLauncher Website"
+  color: f57542
+  description: Related to the YoLauncher Website
+
+- name: "app: YoLauncher App"
+  color: f786c5
+  description: Related to the YoLauncher application
+
+- name: "app: Feudal.Tools Website"
+  color: 4fb5f7
+  description: Related to the Feudal.Tools Website
+
+- name: "app: Feudal.Tools TTMod"
+  color: 42f57b
+  description: Related to the Feudal.Tools TTMod
+
+- name: "app: Feudal.Tools TradePost"
+  color: 8ef542
+  description: Related to the Feudal.Tools TradePost
+
+- name: "app: Feudal.Tools Livemap"
+  color: d4bb42
+  description: Related to the Feudal.Tools Livemap
+
+# OS Labels
+- name: "os: Windows"
+  color: 00adef
+  description: Issue related to Windows OS
+
+- name: "os: Mac"
+  color: ab47bc
+  description: Issue related to Mac OS
+
+- name: "os: Linux"
+  color: 229954
+  description: Issue related to Linux OS

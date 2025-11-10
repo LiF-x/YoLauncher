@@ -1,16 +1,16 @@
 # Quick Start Guide
 
-Welcome to the YoLauncher community repository! This guide will help you get started quickly.
+Welcome to the Projects community repository! This guide will help you get started quickly.
 
 ## 🎯 What is This Repository?
 
-This is the **public issue tracker** for YoLauncher - a place where users can:
+This is the **public issue tracker** for Projects - a place where users can:
 - Report bugs
 - Request features
 - Ask questions
 - Track development progress
 
-**Note**: This repository does NOT contain the YoLauncher source code (which is private).
+**Note**: This repository does NOT contain the Projects source code (which is private).
 
 ## 🐛 Found a Bug?
 
@@ -104,7 +104,7 @@ Please:
 ## 🎓 Tips for Good Issues
 
 **Bug Reports:**
-- Include YoLauncher version
+- Include Projects version
 - Describe steps to reproduce
 - Explain expected vs actual behavior
 - Add screenshots if helpful
@@ -123,7 +123,7 @@ Please:
 
 ## ❤️ Thank You!
 
-Thank you for being part of the YoLauncher community! Your engagement helps make YoLauncher better for everyone.
+Thank you for being part of the Projects community! Your engagement helps make Projects better for everyone.
 
 ---
 

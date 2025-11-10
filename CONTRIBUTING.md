@@ -1,16 +1,16 @@
-# Contributing to YoLauncher
+# Contributing to Projects
 
-Thank you for your interest in contributing to YoLauncher! 🎉
+Thank you for your interest in contributing to Projects! 🎉
 
 ## About This Repository
 
-This repository is the **public issue tracker and roadmap** for YoLauncher. The source code is maintained privately by our organization. However, we welcome and value community contributions in the following areas:
+This repository is the **public issue tracker and roadmap** for Projects. The source code is maintained privately by our organization. However, we welcome and value community contributions in the following areas:
 
 ## How to Contribute
 
 ### Reporting Bugs 🐛
 
-Bug reports help us improve YoLauncher for everyone. When reporting bugs:
+Bug reports help us improve Projects for everyone. When reporting bugs:
 
 1. **Search first**: Check if the issue has already been reported
 2. **Use the template**: Select the "Bug Report" template when creating an issue
@@ -30,7 +30,7 @@ We love hearing ideas from our community! When suggesting features:
 
 ### Asking Questions ❓
 
-Have questions about using YoLauncher?
+Have questions about using Projects?
 
 1. **Check documentation**: Look for existing documentation first
 2. **Search issues**: Someone may have already asked
@@ -142,4 +142,4 @@ By contributing to this repository, you agree that your contributions will be li
 
 ---
 
-Thank you for helping make YoLauncher better! Your contributions, whether big or small, are valued and appreciated. 🚀
+Thank you for helping make Projects better! Your contributions, whether big or small, are valued and appreciated. 🚀

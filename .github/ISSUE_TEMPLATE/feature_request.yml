@@ -1,5 +1,5 @@
 name: Feature Request
-description: Suggest a new feature or enhancement for YoLauncher
+description: Suggest a new feature or enhancement for Projects
 title: "[Feature]: "
 labels: ["enhancement", "needs-triage"]
 body:
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Proposed Solution
       description: Describe the solution you'd like to see implemented.
-      placeholder: I would like YoLauncher to...
+      placeholder: I would like Projects to...
     validations:
       required: true
   

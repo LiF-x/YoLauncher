@@ -1,6 +1,6 @@
-# YoLauncher Roadmap
+# Projects Roadmap
 
-This document outlines the planned features and improvements for YoLauncher. The roadmap is subject to change based on user feedback, technical constraints, and business priorities.
+This document outlines the planned features and improvements for Projects. The roadmap is subject to change based on user feedback, technical constraints, and business priorities.
 
 ## How to Track Progress
 
@@ -38,7 +38,7 @@ _Check issues tagged with `needs-triage` or `discussion` for items under conside
 
 ## Contributing to the Roadmap
 
-Your input helps shape the future of YoLauncher! Here's how you can contribute:
+Your input helps shape the future of Projects! Here's how you can contribute:
 
 1. **Vote on Features**: Use 👍 reactions on issues to show support
 2. **Suggest Ideas**: Create a feature request using the issue template
@@ -67,9 +67,9 @@ We prioritize work based on several factors:
 
 Key areas we're focused on improving:
 
-- **Performance**: Making YoLauncher faster and more efficient
+- **Performance**: Making Projects faster and more efficient
 - **Stability**: Reducing bugs and improving reliability
-- **User Experience**: Making YoLauncher easier and more intuitive to use
+- **User Experience**: Making Projects easier and more intuitive to use
 - **Features**: Adding capabilities that users need
 - **Documentation**: Improving guides and help resources
 

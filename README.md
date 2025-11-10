@@ -1,17 +1,17 @@
-# YoLauncher
+# Projects
 
-Welcome to the YoLauncher community repository! 🚀
+Welcome to the Projects community repository! 🚀
 
 ## About This Repository
 
-This is the **public issue tracker and roadmap** for YoLauncher. While the source code for YoLauncher is proprietary and maintained privately, we believe in transparent communication with our user community.
+This is the **public issue tracker and roadmap** for Projects. While the source code for Projects is proprietary and maintained privately, we believe in transparent communication with our user community.
 
 ### What You Can Do Here
 
 - 🐛 **Report Bugs**: Found an issue? Let us know by creating a bug report
 - 💡 **Request Features**: Have ideas for improvements? We want to hear them
 - 🗺️ **Track Progress**: Follow our development roadmap and see what's coming next
-- 💬 **Discuss**: Engage with other users and our team about YoLauncher
+- 💬 **Discuss**: Engage with other users and our team about Projects
 - 📖 **Learn**: Access documentation and guides
 
 ### What This Repository Contains
@@ -22,7 +22,7 @@ This repository is specifically for:
 - Community discussions
 - Documentation
 
-**Note**: This repository does not contain the source code for YoLauncher, which is maintained privately by our organization.
+**Note**: This repository does not contain the source code for Projects, which is maintained privately by our organization.
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ Have an idea for a new feature or enhancement?
 
 ### Asking Questions
 
-Got questions about using YoLauncher?
+Got questions about using Projects?
 1. Check the documentation first (if available)
 2. Use the **Question** template to ask your question
 3. Search existing issues - someone might have already asked
@@ -67,8 +67,8 @@ Check our [milestones](../../milestones) and [project boards](../../projects) to
 
 ## License
 
-Please refer to our End User License Agreement (EULA) or Terms of Service for information about using YoLauncher.
+Please refer to our End User License Agreement (EULA) or Terms of Service for information about using Projects.
 
 ---
 
-Thank you for being part of the YoLauncher community! Your feedback helps us make YoLauncher better for everyone.
+Thank you for being part of the Projects community! Your feedback helps us make Projects better for everyone.

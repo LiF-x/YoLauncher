@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-The security of YoLauncher and our users is our top priority. We appreciate your efforts to responsibly disclose any security vulnerabilities you discover.
+The security of Projects and our users is our top priority. We appreciate your efforts to responsibly disclose any security vulnerabilities you discover.
 
 ### How to Report
 
@@ -11,7 +11,7 @@ The security of YoLauncher and our users is our top priority. We appreciate your
 Instead, please report security vulnerabilities through one of the following methods:
 
 1. **GitHub Security Advisories** (Preferred):
-   - Go to the [Security Advisories](https://github.com/LiF-x/YoLauncher/security/advisories/new) page
+   - Go to the [Security Advisories](https://github.com/LiF-x/Projects/security/advisories/new) page
    - Click "Report a vulnerability"
    - Provide detailed information about the vulnerability
 
@@ -26,7 +26,7 @@ When reporting a vulnerability, please include:
 - **Description**: A clear description of the vulnerability
 - **Impact**: The potential impact and severity of the issue
 - **Steps to Reproduce**: Detailed steps to reproduce the vulnerability
-- **Affected Versions**: Which versions of YoLauncher are affected
+- **Affected Versions**: Which versions of Projects are affected
 - **Proof of Concept**: If possible, include a proof of concept (but please do so responsibly)
 - **Suggested Fix**: If you have ideas for how to fix the issue, we'd love to hear them
 
@@ -60,7 +60,7 @@ When a security vulnerability is fixed:
 
 ## Supported Versions
 
-Please check the releases page or documentation for information about which versions of YoLauncher currently receive security updates.
+Please check the releases page or documentation for information about which versions of Projects currently receive security updates.
 
 As a general policy:
 - The latest major version receives security updates
@@ -69,9 +69,9 @@ As a general policy:
 
 ## Security Best Practices
 
-To help keep your YoLauncher installation secure:
+To help keep your Projects installation secure:
 
-1. **Keep Updated**: Always use the latest version of YoLauncher
+1. **Keep Updated**: Always use the latest version of Projects
 2. **Monitor Advisories**: Watch this repository for security advisories
 3. **Report Issues**: If you notice something suspicious, report it
 4. **Follow Guidelines**: Adhere to recommended configuration and usage guidelines
@@ -80,7 +80,7 @@ To help keep your YoLauncher installation secure:
 
 This security policy covers:
 
-- The YoLauncher application itself
+- The Projects application itself
 - Official plugins and extensions (if any)
 - This repository and its contents
 
@@ -93,7 +93,7 @@ This policy does not cover:
 
 ## Recognition
 
-We appreciate security researchers who help keep YoLauncher secure. Reporters of valid security issues may be:
+We appreciate security researchers who help keep Projects secure. Reporters of valid security issues may be:
 
 - Acknowledged in security advisories (with their permission)
 - Credited in release notes
@@ -115,4 +115,4 @@ This security policy may be updated from time to time. Please check back periodi
 
 **Last Updated**: 2025-11-10
 
-Thank you for helping keep YoLauncher and our users safe! 🔒
+Thank you for helping keep Projects and our users safe! 🔒

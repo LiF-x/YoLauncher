@@ -1,16 +1,16 @@
 # Maintainer Guide
 
-This guide is for maintainers and team members managing the YoLauncher issue tracker and community repository.
+This guide is for maintainers and team members managing the Projects issue tracker and community repository.
 
 ## Repository Purpose
 
-This repository serves as the **public interface** for YoLauncher:
+This repository serves as the **public interface** for Projects:
 - Issue tracking for bug reports and feature requests
 - Community engagement and support
 - Roadmap visibility and transparency
 - Documentation hosting
 
-**Important**: The actual YoLauncher source code is maintained separately in a private repository.
+**Important**: The actual Projects source code is maintained separately in a private repository.
 
 ## Daily Responsibilities
 
@@ -205,7 +205,7 @@ The `.github/labels.yml` file can be used with label management tools to keep la
 
 ```bash
 # Example using github-label-sync
-npx github-label-sync --access-token [token] LiF-x/YoLauncher
+npx github-label-sync --access-token [token] LiF-x/Projects
 ```
 
 ## Best Practices
@@ -286,4 +286,4 @@ If you're unsure about something:
 
 ---
 
-Remember: This repository represents YoLauncher to the public. Your interactions here shape how users perceive the product and the organization. Be helpful, professional, and transparent within appropriate bounds.
+Remember: This repository represents Projects to the public. Your interactions here shape how users perceive the product and the organization. Be helpful, professional, and transparent within appropriate bounds.

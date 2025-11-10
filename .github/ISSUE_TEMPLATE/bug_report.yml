@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug or issue with YoLauncher
+description: Report a bug or issue with Projects
 title: "[Bug]: "
 labels: ["bug", "needs-triage"]
 body:
@@ -51,8 +51,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: YoLauncher Version
-      description: What version of YoLauncher are you using?
+      label: Projects Version
+      description: What version of Projects are you using?
       placeholder: e.g., 1.2.3
     validations:
       required: true

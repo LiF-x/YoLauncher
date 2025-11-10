@@ -1,12 +1,12 @@
 # Repository Setup Summary
 
-This document summarizes the configuration of the YoLauncher repository as a public bug tracking and roadmap platform.
+This document summarizes the configuration of the Projects repository as a public bug tracking and roadmap platform.
 
 ## Setup Date
 2025-11-10
 
 ## Purpose
-This repository serves as the public interface for YoLauncher - a closed/private project. It enables community engagement, transparent bug tracking, and roadmap visibility while keeping the source code private.
+This repository serves as the public interface for Projects - a closed/private project. It enables community engagement, transparent bug tracking, and roadmap visibility while keeping the source code private.
 
 ## What Was Configured
 

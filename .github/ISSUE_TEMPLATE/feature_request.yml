@@ -1,0 +1,94 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for YoLauncher
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please fill out this form to help us understand your idea.
+  
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a problem? Please describe the problem you're trying to solve.
+      placeholder: I'm frustrated when...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see implemented.
+      placeholder: I would like YoLauncher to...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: I've tried... / Another approach could be...
+  
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Describe how you (or others) would use this feature. Provide specific examples if possible.
+      placeholder: |
+        As a user, I would use this feature to...
+        For example, when I...
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: user-type
+    attributes:
+      label: User Type
+      description: Which type of user would benefit most from this feature?
+      options:
+        - End User
+        - Power User
+        - Administrator
+        - All Users
+        - Other
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Critical - Blocks my usage
+        - High - Would significantly improve my experience
+        - Medium - Nice to have
+        - Low - Minor improvement
+    validations:
+      required: true
+  
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups or Examples
+      description: If applicable, add mockups, screenshots, or examples from other applications. You can drag and drop images here.
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, links, or information about the feature request here.
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have searched existing issues to ensure this feature hasn't already been requested
+          required: true
+        - label: I understand that this is a feature request and may not be implemented immediately
+          required: true

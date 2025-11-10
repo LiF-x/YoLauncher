@@ -1,0 +1,121 @@
+# Issue Type Labels
+- name: bug
+  color: d73a4a
+  description: Something isn't working
+
+- name: enhancement
+  color: a2eeef
+  description: New feature or request
+
+- name: question
+  color: d876e3
+  description: Further information is requested
+
+- name: documentation
+  color: 0075ca
+  description: Improvements or additions to documentation
+
+# Status Labels
+- name: needs-triage
+  color: ededed
+  description: Awaiting initial review and categorization
+
+- name: "status: accepted"
+  color: 10b981
+  description: Issue confirmed and will be addressed
+
+- name: "status: in-progress"
+  color: fbca04
+  description: Work is currently underway
+
+- name: "status: completed"
+  color: 22863a
+  description: Issue has been resolved
+
+- name: "status: blocked"
+  color: b60205
+  description: Progress is blocked by external factors
+
+- name: "status: on-hold"
+  color: fef2c0
+  description: Work paused, will resume later
+
+# Priority Labels
+- name: "priority: critical"
+  color: b60205
+  description: Urgent issue blocking users
+
+- name: "priority: high"
+  color: d93f0b
+  description: Important issue affecting many users
+
+- name: "priority: medium"
+  color: fbca04
+  description: Issue that should be addressed
+
+- name: "priority: low"
+  color: 0e8a16
+  description: Nice to have improvement
+
+# Resolution Labels
+- name: wontfix
+  color: ffffff
+  description: This will not be worked on
+
+- name: duplicate
+  color: cfd3d7
+  description: This issue already exists
+
+- name: invalid
+  color: e4e669
+  description: This doesn't meet requirements or isn't valid
+
+- name: "needs: more-info"
+  color: d876e3
+  description: Additional information needed from reporter
+
+- name: "needs: reproduction"
+  color: d876e3
+  description: Steps to reproduce are needed
+
+# Category Labels
+- name: "category: performance"
+  color: 1d76db
+  description: Performance related issues
+
+- name: "category: security"
+  color: d73a4a
+  description: Security related issues
+
+- name: "category: ui/ux"
+  color: 006b75
+  description: User interface or experience related
+
+- name: "category: compatibility"
+  color: 5319e7
+  description: Compatibility issues with systems or software
+
+- name: "category: installation"
+  color: c2e0c6
+  description: Issues with installation or setup
+
+# Special Labels
+- name: "good first issue"
+  color: 7057ff
+  description: Good for newcomers
+
+- name: "help wanted"
+  color: 008672
+  description: Community input requested
+
+- name: discussion
+  color: cc317c
+  description: Open for community discussion
+
+- name: roadmap
+  color: 0e8a16
+  description: Related to product roadmap
+
+- name: breaking-change
+  color: d73a4a
+  description: May require user action or cause disruption

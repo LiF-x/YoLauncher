@@ -1,0 +1,69 @@
+name: "Add Label for Issues in Bug Tracker: YoLauncher Website"
+
+on:
+  project_v2_item:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  add-label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - name: Download dependencies
+        run: npm install @octokit/core
+      - name: Add label if issue in specific Project v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROJECT_NAME: "Bug Tracker: YoLauncher Website"
+          LABEL_NAME: "app: YoLauncher Website"
+        run: |
+          node <<'EOF'
+          const { Octokit } = require("@octokit/core");
+          const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+
+          (async () => {
+            const payload = require(process.env.GITHUB_EVENT_PATH);
+            const owner = "LiF-x";
+            const repo = "Projects";
+            const projectName = process.env.PROJECT_NAME;
+            const labelToAdd = process.env.LABEL_NAME;
+
+            // Only proceed if the project item is an issue
+            if (payload.project_v2_item.content?.type !== "Issue") {
+              console.log("Not an issue, skipping");
+              return;
+            }
+
+            // Fetch all org projects v2 (for now, will hardcode node ID later)
+            const projectsResp = await octokit.request('GET /orgs/{org}/projects', {
+              org: owner
+            });
+            const project = projectsResp.data.find(prj => prj.name === projectName);
+            if (!project) {
+              console.log('Project not found');
+              return;
+            }
+            if (payload.project_v2_item.project_id !== project.id) {
+              console.log('Project does not match');
+              return;
+            }
+
+            // Add label
+            const issueNumber = payload.project_v2_item.content.number;
+            await octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/labels', {
+              owner,
+              repo,
+              issue_number: issueNumber,
+              labels: [labelToAdd]
+            });
+            console.log(`Label '${labelToAdd}' added to issue #${issueNumber}`);
+          })().catch(e => { console.error(e); process.exit(1); });
+          EOF
